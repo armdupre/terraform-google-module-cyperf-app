@@ -1,1 +1,1 @@
-# terraform-google-module-cyperf-app
+# module-cyperf-app/google
