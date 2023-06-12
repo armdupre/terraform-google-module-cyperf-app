@@ -1,5 +1,5 @@
 variable "CustomImageFamilyName" {
-	default = "keysight-cyperf-controller-1-5"
+	default = "keysight-cyperf-controller-2-1"
 	description = "Group of images to which image belongs"
 	type = string
 }

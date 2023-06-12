@@ -1,6 +1,6 @@
 output "Eth0PublicIpAddress" {
 	value = {
-		"address" : google_compute_address.Eth0PublicIpAddress.address
+		"address" : "https://${google_compute_address.Eth0PublicIpAddress.address}"
 		"address_type" : google_compute_address.Eth0PublicIpAddress.address_type
 	}
 }
