@@ -1,5 +1,5 @@
 variable "CustomImageFamilyName" {
-	default = "keysight-cyperf-controller-5-0"
+	default = "keysight-cyperf-controller-6-0"
 	description = "Group of images to which image belongs"
 	type = string
 }
@@ -89,7 +89,7 @@ variable "UserProjectTag" {
 }
 
 variable "Version" {
-	default = "5-0"
+	default = "6-0"
 	description = "Versioning of the application using the deployment"
 	type = string
 }
